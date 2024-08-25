@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  transition: all 0.3s ease-in-out;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
