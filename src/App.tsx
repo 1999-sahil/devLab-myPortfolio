@@ -12,7 +12,7 @@ function App() {
       <Showcase />
       <ProfileTagMarquee />
 
-      <div className="px-10">
+      <div className="p-10">
         <Expertise />
       </div>
     </div>

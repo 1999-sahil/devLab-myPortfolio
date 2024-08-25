@@ -1,5 +1,6 @@
 import { cards } from "@/constants"
 import TitleText from "../title-text"
+import Skills from "./Skills"
 
 function Expertise() {
   return (
@@ -44,6 +45,11 @@ function Expertise() {
                     </div>
                 )
             })}
+        </div>
+
+        {/** Skills circle section */}
+        <div className="mt-6">
+            <Skills />
         </div>
     </div>
   )
