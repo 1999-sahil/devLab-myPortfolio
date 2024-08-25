@@ -34,9 +34,8 @@ function Header() {
             return (
               <div
                 key={index}
-                className={`flex capitalize cursor-pointer text-sm px-3 py-1 rounded-sm font-ubuntu transition-all duration-200 hover:bg-zinc-100 dark:hover:bg-gray-800
-                  ${isActive ? "bg-[#5FFB17] text-black" : ""}
-                  ${isActive && "hover:bg-[#5FFB17] dark:hover:bg-[#5FFB17]"}
+                className={`flex capitalize cursor-pointer text-sm px-3 py-1 rounded-sm font-ubuntu transition-all duration-200
+                  ${isActive ? "bg-[#5FFB17] text-black" : "hover:bg-zinc-100 dark:hover:bg-gray-800"}
                 `}
               >
                 <a href={link.to} className="">{link.title}</a>

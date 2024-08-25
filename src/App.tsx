@@ -1,13 +1,13 @@
 import "./App.css";
 import Header from "./components/header/Header";
+import Showcase from "./components/welcome-banner/Showcase";
 
 function App() {
 
   return (
-    <div className="grainy bg-white dark:bg-[#0d121c] antialiased">
-      <div className="">
-        <Header />
-      </div>
+    <div className="antialiased">
+      <Header />
+      <Showcase />
     </div>
   )
 }
