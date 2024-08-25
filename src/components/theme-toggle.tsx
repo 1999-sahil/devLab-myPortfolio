@@ -13,7 +13,7 @@ function ThemeToggle() {
     <div className="flex items-center justify-center w-fit h-fit">
       <button
         onClick={toggleTheme}
-        className="relative hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem] transition-transform duration-300 ease-in-out"
+        className="relative hover:bg-zinc-200 dark:hover:bg-gray-800 rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem] transition-transform duration-300 ease-in-out"
       >
         <div
           className={`absolute transition-opacity duration-300 ease-in-out ${
@@ -27,7 +27,7 @@ function ThemeToggle() {
             theme === "dark" ? "opacity-0 rotate-180" : "opacity-100 rotate-0"
           }`}
         >
-          <RiMoonClearFill className="w-[1.2rem] h-[1.2rem] text-zinc-800" />
+          <RiMoonClearFill className="w-[1.2rem] h-[1.2rem] text-[#333]" />
         </div>
       </button>
     </div>
