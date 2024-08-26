@@ -36,6 +36,8 @@ html, body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --grid-line-color: #D3D3D3;
+    --dot-bg: #FFFFFF;
+    --dot-color: #000000;
   }
 
   .dark {
@@ -64,6 +66,8 @@ html, body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
     --grid-line-color: #394357;
+    --dot-bg: #000000;
+    --dot-color: #FFFFFF;
   }
 }
 
@@ -85,4 +89,15 @@ html, body {
   background-image: 
     linear-gradient(to right, var(--grid-line-color), 0.3px, transparent 1px),
     linear-gradient(to bottom, var(--grid-line-color), 0.3px, transparent 1px);
+}
+
+.gridDotesBg {
+  background-color: var(--dot-bg);
+  color: var(--dot-color);
+  --dot-size: 1px;
+  --dot-space: 15px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
 }

@@ -156,7 +156,7 @@ export const TypewriterEffectSmooth = ({
         }}
       >
         <div
-          className="px-6 md:px-0 text-center font-montserrat font-extrabold text-3xl md:text-4xl md:whitespace-nowrap"
+          className="text-center font-montserrat font-extrabold text-3xl md:text-4xl md:whitespace-nowrap"
           //style={{
           //whiteSpace: "wrap",
           //}}

@@ -104,7 +104,17 @@ function Header() {
                 );
               })}
 
-              {/** resume button */}
+              {/** projects and resume link */}
+              <div className="w-3/4 flex flex-col gap-4 items-center justify-center text-center">
+                <Link to="/projects" className="font-poppins text-2xl font-bold mx-auto py-2 rounded-md w-full text-zinc-800 dark:text-[#5FFB17] hover:bg-zinc-200 dark:hover:bg-[#0f1728]">
+                  Projects
+                </Link>
+                <Link to="/resume" className="font-poppins text-2xl font-bold mx-auto py-2 rounded-md w-full text-zinc-800 dark:text-[#5FFB17] hover:bg-zinc-200 dark:hover:bg-[#0f1728]">
+                  Resume
+                </Link>
+              </div>
+
+              {/** theme and social icons */}
               <div className="flex items-center justify-center gap-4 w-full mt-4">
                 <ThemeToggle />
                 <Link to="" className="hover:bg-zinc-200 dark:hover:bg-gray-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
