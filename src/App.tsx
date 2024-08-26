@@ -2,6 +2,7 @@ import "./App.css";
 import Expertise from "./components/expertise/Expertise";
 import Header from "./components/header/Header";
 import ProfileTagMarquee from "./components/profileTag-marquee";
+import Work from "./components/projects/Work";
 import Showcase from "./components/welcome-banner/Showcase";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 
       <div className="px-4 md:px-20">
         <Expertise />
-        {/** <Work /> */}
+        <Work />
       </div>
     </div>
   )

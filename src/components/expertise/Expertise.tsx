@@ -4,7 +4,7 @@ import Skills from "./Skills";
 
 function Expertise() {
   return (
-    <div id="expertise" className="w-full h-full bg-white dark:bg-[#0d121c]">
+    <div id="expertise" className="w-full h-full md:px-20 bg-white dark:bg-[#0d121c]">
       <TitleText
         title="Technical Skills"
         description={`My technical skills which consist practices of Full-Stack Development,
