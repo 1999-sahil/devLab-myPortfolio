@@ -65,7 +65,7 @@ function Header() {
       {/** mobile mode */}
       <div className="md:hidden flex items-center justify-center gap-3">
         <div onClick={toggleMenu} className="cursor-pointer">
-          <BiMenuAltLeft className="w-7 h-7 text-zinc-800 dark:text-zinc-300" />
+          <BiMenuAltLeft className="w-8 h-8 p-1 rounded-md text-zinc-800 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-gray-800" />
         </div>
       </div>
 
@@ -77,13 +77,13 @@ function Header() {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed z-50 left-0 top-0 bg-zinc-100 dark:bg-[#0d121c] w-full h-screen origin-top"
+            className="fixed z-50 left-0 top-0 bg-gray-100 dark:bg-[#0d121c] w-full h-screen origin-top"
           >
             {/** logo and close button */}
             <div className="flex items-center justify-between px-10 pt-6">
               <Logo />
               <div onClick={toggleMenu} className="cursor-pointer">
-                <X className="w-7 h-7" />
+                <X className="w-8 h-8 p-1 rounded-md text-zinc-800 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-gray-800" />
               </div>
             </div>
 
