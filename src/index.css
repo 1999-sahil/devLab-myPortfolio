@@ -38,6 +38,7 @@ html, body {
     --grid-line-color: #D3D3D3;
     --dot-bg: #FFFFFF;
     --dot-color: #000000;
+    --resume-dot-bg: #FFFFFF;
   }
 
   .dark {
@@ -68,6 +69,7 @@ html, body {
     --grid-line-color: #394357;
     --dot-bg: #000000;
     --dot-color: #FFFFFF;
+    --resume-dot-bg: #0d121c;
   }
 }
 
@@ -99,5 +101,16 @@ html, body {
 	background:
 		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
 		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+}
+
+.gridDotResume {
+  background-color: var(--resume-dot-bg);
+  color: var(--dot-color);
+  --dot-size: 1px;
+  --dot-space: 15px;
+	background:
+		linear-gradient(90deg, var(--resume-dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--resume-dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
 		var(--dot-color);
 }
