@@ -7,7 +7,7 @@ import { containerVars, menuVars } from "@/constants/motion";
 import MobileNavLink from "./MobileNavLink";
 import ThemeToggle from "../theme-toggle";
 
-import { X } from "lucide-react";
+import { ArrowUpRight, X } from "lucide-react";
 import { BiMenuAltLeft } from "react-icons/bi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Logo from "../logo";
@@ -49,15 +49,16 @@ function Header() {
       <div className="hidden md:flex items-center justify-center gap-4">
         <ThemeToggle />
         <Link to="/projects">
-          <h2 className="text-sm font-poppins font-medium">
+          <h2 className="text-sm font-lato font-medium hover:bg-zinc-100 dark:hover:bg-gray-800 px-2.5 py-2 rounded-md">
             Projects
           </h2>
         </Link>
         <Link
           to="/resume"
-          className="inline-flex overflow-hidden text-white dark:text-zinc-800 bg-zinc-800 dark:bg-white rounded-md group"
+          className="flex items-center gap-2 text-black bg-[#5FFB17] font-lato font-medium rounded-md py-1 px-2.5"
         >
           Resume
+          <ArrowUpRight className="bg-black text-[#5FFb17] p-1 rounded-full" />
         </Link>
       </div>
 
@@ -106,10 +107,10 @@ function Header() {
               {/** resume button */}
               <div className="flex items-center justify-center gap-4 w-full mt-4">
                 <ThemeToggle />
-                <Link to="" className="hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
+                <Link to="" className="hover:bg-zinc-200 dark:hover:bg-gray-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
                     <FaGithub className="w-[1.2rem] h-[1.2rem] text-zinc-800 dark:text-white" />
                 </Link>
-                <Link to="" className="hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
+                <Link to="" className="hover:bg-zinc-200 dark:hover:bg-gray-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
                     <FaLinkedin className="w-[1.2rem] h-[1.2rem] text-zinc-700 dark:text-white" />
                 </Link>
               </div>
