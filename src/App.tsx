@@ -12,8 +12,9 @@ function App() {
       <Showcase />
       <ProfileTagMarquee />
 
-      <div className="p-10">
+      <div className="px-4 md:px-20">
         <Expertise />
+        {/** <Work /> */}
       </div>
     </div>
   )

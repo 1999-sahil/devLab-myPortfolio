@@ -30,7 +30,8 @@ export const cards = [
         cardBgColor: "bg-[#e3e3e3]",
         textBgColor: "bg-[#5FFB17]",
         textColor: "text-black",
-        borderColor: "",
+        borderColor: "bg-black",
+        //darkBorderColor: "bg-[#333]",
     },
     {
         title: "Full Stack",
@@ -39,7 +40,8 @@ export const cards = [
         cardBgColor: "bg-[#5FFB17]",
         textBgColor: "bg-[#000000]",
         textColor: "text-[#5FFB17]",
-        borderColor: "",
+        borderColor: "bg-black",
+        //darkBorderColor: "bg-white",
     },
     {
         title: "Design and",
@@ -48,7 +50,8 @@ export const cards = [
         cardBgColor: "bg-[#000000]", // black
         textBgColor: "bg-[#FFFFFF]",
         textColor: "text-black",
-        borderColor: "",
+        borderColor: "bg-[#333]",
+        //darkBorderColor: "bg-white",
     },
     {
         title: "Problem solving",
@@ -57,7 +60,8 @@ export const cards = [
         cardBgColor: "bg-[#e3e3e3]",
         textBgColor: "bg-[#5FFB17]",
         textColor: "text-black",
-        borderColor: "",
+        borderColor: "bg-black",
+        //darkBorderColor: "bg-white",
     },
 ];
 
