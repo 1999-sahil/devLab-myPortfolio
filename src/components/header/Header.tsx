@@ -7,7 +7,7 @@ import { containerVars, menuVars } from "@/constants/motion";
 import MobileNavLink from "./MobileNavLink";
 import ThemeToggle from "../theme-toggle";
 
-import { UserRoundSearch, X } from "lucide-react";
+import { X } from "lucide-react";
 import { BiMenuAltLeft } from "react-icons/bi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Logo from "../logo";
@@ -48,19 +48,16 @@ function Header() {
       {/** resume */}
       <div className="hidden md:flex items-center justify-center gap-4">
         <ThemeToggle />
-        <Link to="/resume">
-          <h2 className="underline underline-offset-2 text-sm font-poppins font-medium">
-            Resume
+        <Link to="/projects">
+          <h2 className="text-sm font-poppins font-medium">
+            Projects
           </h2>
         </Link>
         <Link
-          to=""
+          to="/resume"
           className="inline-flex overflow-hidden text-white dark:text-zinc-800 bg-zinc-800 dark:bg-white rounded-md group"
         >
-          <span className="px-2 text-white bg-[#5FFB17] group-hover:bg-[#4cdc09] flex items-center justify-center">
-            <UserRoundSearch className="w-4 h-4" />
-          </span>
-          <span className="px-3 py-1.5 text-sm font-poppins">Hire Me</span>
+          Resume
         </Link>
       </div>
 

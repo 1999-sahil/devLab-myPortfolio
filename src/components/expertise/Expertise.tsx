@@ -18,10 +18,10 @@ function Expertise() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
         {cards.map((card, index) => {
           return (
-            <div className="relative inline-block group">
+            <div key={index} className="relative inline-block group">
               <span className={`absolute dark:hidden rounded-2xl inset-0 w-full h-full transition duration-200 ease-out transform translate-x-[5px] translate-y-[5px] ${card.borderColor} group-hover:-translate-x-0 group-hover:-translate-y-0`}></span>
               <div
-                key={index}
+                //key={index}
                 className={`relative flex items-center border rounded-xl px-2 
                             ${card.cardBgColor} border border-[#333]
                         `}
