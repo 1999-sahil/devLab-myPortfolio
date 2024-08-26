@@ -4,7 +4,7 @@ import Skills from "./Skills";
 
 function Expertise() {
   return (
-    <div id="expertise" className="w-full h-full md:px-20 bg-white dark:bg-[#0d121c]">
+    <div id="expertise" className="w-full h-full my-10 md:px-20 bg-white dark:bg-[#0d121c]">
       <TitleText
         title="Technical Skills"
         description={`My technical skills which consist practices of Full-Stack Development,
@@ -15,7 +15,7 @@ function Expertise() {
       />
 
       {/** cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
         {cards.map((card, index) => {
           return (
             <div className="relative inline-block group">
@@ -57,7 +57,7 @@ function Expertise() {
       </div>
 
       {/** Skills circle section */}
-      <div className="mt-6">
+      <div className="mt-20">
         <Skills />
       </div>
     </div>

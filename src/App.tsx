@@ -1,4 +1,5 @@
 import "./App.css";
+import Experience from "./components/experience/Experience";
 import Expertise from "./components/expertise/Expertise";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
@@ -14,9 +15,10 @@ function App() {
       <Showcase />
       <ProfileTagMarquee />
 
-      <div className="px-4 md:px-20">
+      <div className="px-4 md:px-20 flex flex-col gap-8 my-20">
         <Expertise />
         <Work />
+        <Experience />
       </div>
 
       <Footer />
