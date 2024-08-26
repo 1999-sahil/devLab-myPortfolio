@@ -12,6 +12,7 @@ import ProfileTagMarquee from "./components/profileTag-marquee";
 import Work from "./components/projects/Work";
 import Showcase from "./components/welcome-banner/Showcase";
 import Projects from "./components/work/Projects";
+import Resume from "./components/resume/Resume";
 
 function App() {
 
@@ -36,6 +37,9 @@ function App() {
         
         {/* Projects page as a separate route */}
         <Route path="/projects" element={<Projects />} />
+
+        {/* Resume page as a separate route */}
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </div>
   )

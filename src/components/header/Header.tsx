@@ -34,7 +34,7 @@ function Header() {
             return (
               <div
                 key={index}
-                className={`flex capitalize cursor-pointer text-sm px-3 py-1 rounded-sm font-ubuntu transition-all duration-200
+                className={`flex capitalize cursor-pointer text-sm px-3 py-1.5 rounded-sm font-ubuntu transition-all duration-200
                   ${isActive ? "bg-[#5FFB17] text-black" : "hover:bg-zinc-100 dark:hover:bg-gray-800"}
                 `}
               >
@@ -55,7 +55,7 @@ function Header() {
         </Link>
         <Link
           to="/resume"
-          className="flex items-center gap-2 text-black bg-[#5FFB17] font-lato font-medium rounded-md py-1 px-2.5"
+          className="flex items-center gap-2 text-black bg-[#5FFB17] hover:bg-opacity-90 font-lato font-medium rounded-md py-1 px-2.5"
         >
           Resume
           <ArrowUpRight className="bg-black text-[#5FFb17] p-1 rounded-full" />
