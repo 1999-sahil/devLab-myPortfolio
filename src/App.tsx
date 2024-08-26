@@ -1,5 +1,6 @@
 import "./App.css";
 import Expertise from "./components/expertise/Expertise";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import ProfileTagMarquee from "./components/profileTag-marquee";
 import Work from "./components/projects/Work";
@@ -17,6 +18,8 @@ function App() {
         <Expertise />
         <Work />
       </div>
+
+      <Footer />
     </div>
   )
 }
