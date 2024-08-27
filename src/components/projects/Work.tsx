@@ -8,7 +8,7 @@ import TitleText from "../title-text";
 function Work() {
   return (
     <div id="work" className="w-full h-full my-10">
-      <div className="flex flex-col w-full gap-8 mb-8 items-center justify-center mb-5 md:px-20">
+      <div className="flex flex-col w-full gap-8 mb-8 items-center justify-center md:px-20">
         <div className="text-4xl flex flex-col font-poppins font-bold text-center">
           <h2>Imagination Trumps</h2>
           <h2>Knowledge</h2>

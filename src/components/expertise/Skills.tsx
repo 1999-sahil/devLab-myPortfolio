@@ -18,10 +18,10 @@ function Skills() {
         </div>
 
         {/** skill icons */}
-        <div className='w-full h-full gap-8 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 m-auto'>
+        <div className='w-full h-full gap-8 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center justify-center m-auto'>
         {expertise?.map((skill, index) => {
           return (
-            <div key={index} className='flex items-center'>
+            <div key={index} className='flex items-center justify-center'>
               <span className="">
                 <skill.image className="w-[2.5rem] h-[2.5rem] md:w-[3rem] md:h-[3rem] lg:w-[4rem] lg:h-[4rem] text-[#333] dark:text-[#a9a9a9]" />
               </span>

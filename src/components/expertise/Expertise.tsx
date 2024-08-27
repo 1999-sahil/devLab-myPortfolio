@@ -42,7 +42,7 @@ function Expertise() {
 
                 {/** image-section */}
                 <div className="w-1/2 h-full">
-                  <div className="flex items-center justify-end w-[175px] h-[175px] md:w-[200px] md:h-[200px]">
+                  <div className="flex items-center justify-end w-[150px] h-[150px] md:w-[175px] md:h-[175px] lg:w-[200px] lg:h-[200px]">
                     <img
                       src={card.image}
                       alt={card.title}
