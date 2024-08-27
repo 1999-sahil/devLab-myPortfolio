@@ -8,7 +8,7 @@ function FooterQuote() {
             <Grip className="text-black w-5 h-5" />
             <ArrowUpRight className="text-[#5FFB17] bg-black rounded-full p-1" />
         </div>
-        <h2 className='text-sm md:text-base font-lato font-medium text-black text-center'>
+        <h2 className='text-xs md:text-sm lg:text-base font-lato font-medium text-black text-center'>
             A Frontend focussed Web Developer building the Frontend of Websites and Web Applicatins that leads to the success of the overall product.
         </h2>
         </div>

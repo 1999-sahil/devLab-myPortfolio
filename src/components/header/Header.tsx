@@ -106,10 +106,10 @@ function Header() {
 
               {/** projects and resume link */}
               <div className="w-3/4 flex flex-col gap-4 items-center justify-center text-center">
-                <Link to="/projects" className="font-poppins text-2xl font-bold mx-auto py-2 rounded-md w-full text-zinc-800 dark:text-[#5FFB17] hover:bg-zinc-200 dark:hover:bg-[#0f1728]">
+                <Link to="/projects" className="font-poppins text-lg font-bold mx-auto py-1 rounded-md w-full text-zinc-800 dark:text-[#5FFB17] hover:bg-zinc-200 dark:hover:bg-[#0f1728]">
                   Projects
                 </Link>
-                <Link to="/resume" className="font-poppins text-2xl font-bold mx-auto py-2 rounded-md w-full text-zinc-800 dark:text-[#5FFB17] hover:bg-zinc-200 dark:hover:bg-[#0f1728]">
+                <Link to="/resume" className="font-poppins text-lg font-bold mx-auto py-1 rounded-md w-full text-zinc-800 dark:text-[#5FFB17] hover:bg-zinc-200 dark:hover:bg-[#0f1728]">
                   Resume
                 </Link>
               </div>

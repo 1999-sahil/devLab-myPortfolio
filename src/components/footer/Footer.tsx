@@ -44,13 +44,13 @@ function Footer() {
             </div>
 
             <div className='flex flex-col gap-1'>
-              <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-sm'>
+              <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-xs md:text-sm'>
                 <Mail className='text-[#5FFb17]' size={15} /> Email: <span className="font-openSans">sahilahmed466@gmail.com</span>
               </h2>
-              <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-sm'>
+              <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-xs md:text-sm'>
                 <Phone className='text-[#5FFb17]' size={15} /> Phone: <span className='font-openSans'>+91 87440-91822</span>
               </h2>
-              <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-sm'>
+              <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-xs md:text-sm'>
                 <LocateFixed className='text-[#5FFb17]' size={15} /> Address: <span className='font-openSans'>Uttam Nagar, West Delhi, Delhi - 110059, India</span>
               </h2>
             </div>
