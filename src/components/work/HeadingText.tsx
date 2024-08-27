@@ -42,7 +42,7 @@ function HeadingText() {
       </p>
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-        <a href="" target="_blank">
+        <a href="https://github.com/1999-sahil" target="_blank">
           <button className="text-white dark:text-black flex items-center gap-2 font-ubuntu font-medium bg-black dark:bg-white px-3 md:px-4 py-1 md:py-2 rounded-md text-sm md:text-base hover:bg-opacity-90 dark:hover:bg-zinc-200">
             <FaGithub />
             Github

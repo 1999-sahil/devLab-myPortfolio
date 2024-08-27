@@ -33,14 +33,14 @@ function Footer() {
         <div className='w-full flex flex-col md:flex-row mt-4 items-center'>
           <div className='w-full md:w-1/2 flex flex-col gap-4'>
             <div className='flex items-center gap-4 w-full'>
-              <Link to='' className='w-1/2 flex items-center justify-center gap-2 bg-[#5FFB17] text-black font-montserrat font-semibold text-sm rounded-sm px-2 py-1 hover:opacity-90'>
+              <Link to='/projects' className='w-1/2 flex items-center justify-center gap-2 bg-[#5FFB17] text-black font-montserrat font-semibold text-sm rounded-sm px-2 py-1 hover:opacity-90'>
                 My Work
                 <ArrowUpRight className='bg-black text-[#5FFB17] p-1 rounded-full' />
               </Link>
-              <Link to='' className='w-1/2 flex items-center justify-center gap-2 bg-black ring-1 ring-white text-white font-montserrat font-medium text-sm rounded-sm px-2 py-1.5 hover:bg-zinc-800'>
+              <a href='https://github.com/1999-sahil' target="_blank" className='w-1/2 flex items-center justify-center gap-2 bg-black ring-1 ring-white text-white font-montserrat font-medium text-sm rounded-sm px-2 py-1.5 hover:bg-zinc-800'>
                 <FaGithub size={15} />
                 Github
-              </Link>
+              </a>
             </div>
 
             <div className='flex flex-col gap-1'>
@@ -50,8 +50,8 @@ function Footer() {
               <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-xs md:text-sm'>
                 <Phone className='text-[#5FFb17]' size={15} /> Phone: <span className='font-openSans'>+91 87440-91822</span>
               </h2>
-              <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-xs md:text-sm'>
-                <LocateFixed className='text-[#5FFb17]' size={15} /> Address: <span className='font-openSans'>Uttam Nagar, West Delhi, Delhi - 110059, India</span>
+              <h2 className='flex items-center gap-1 font-lato text-zinc-300 text-xs md:text-sm whitespace-nowrap'>
+                <LocateFixed className='text-[#5FFb17]' size={15} /> Address: <span className='font-openSans'>West Delhi, Delhi - 110059, India</span>
               </h2>
             </div>
           </div>

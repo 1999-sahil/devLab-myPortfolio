@@ -15,13 +15,13 @@ function SubHeadingText() {
         to dev community.
       </h2>
       <div className="flex items-center gap-4 my-8">
-        <a href="" target="_blank">
+        <a href="https://github.com/1999-sahil" target="_blank">
           <button className="flex items-center justify-center rounded-md gap-2 hover:bg-zinc-800 dark:hover:bg-zinc-300 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-black font-lato text-sm md:text-base font-medium px-2 py-1 lg:px-4 lg:py-2 w-full md:w-auto">
             <FaGithub />
             Github
           </button>
         </a>
-        <Link to="">
+        <Link to="/projects">
           <button className="flex items-center justify-center rounded-md gap-2 hover:bg-opacity-90 bg-[#5FFB17] text-black font-lato text-sm md:text-base font-medium px-2 py-1 lg:px-4 lg:py-2 w-full md:w-auto">
             See my work
             <ArrowUpRight className="bg-black rounded-full p-1 text-[#5FFB17]" />

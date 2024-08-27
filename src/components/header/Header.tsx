@@ -117,12 +117,12 @@ function Header() {
               {/** theme and social icons */}
               <div className="flex items-center justify-center gap-4 w-full mt-4">
                 <ThemeToggle />
-                <Link to="" className="hover:bg-zinc-200 dark:hover:bg-gray-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
+                <a href="https://github.com/1999-sahil" target="_blank" className="hover:bg-zinc-200 dark:hover:bg-gray-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
                     <FaGithub className="w-[1.2rem] h-[1.2rem] text-zinc-800 dark:text-white" />
-                </Link>
-                <Link to="" className="hover:bg-zinc-200 dark:hover:bg-gray-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
+                </a>
+                <a href="www.linkedin.com/in/sahil-ahmed-86222718a" target="_blank" className="hover:bg-zinc-200 dark:hover:bg-gray-800 transition-transform duration-300 ease-in-out rounded-md flex items-center justify-center w-[2.2rem] h-[2.2rem]">
                     <FaLinkedin className="w-[1.2rem] h-[1.2rem] text-zinc-700 dark:text-white" />
-                </Link>
+                </a>
               </div>
             </motion.div>
           </motion.div>
